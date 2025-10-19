@@ -1,6 +1,5 @@
 import csv
 import time
-from termcolor import colored, cprint
 from classes.newquote import newQuote
 from classes.tools import Tools
 
