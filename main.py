@@ -6,7 +6,7 @@ from classes.tools import Tools
 rawQuotes = [] # Quotes as they appear from the csv file
 quotes = []
 quoteLists = []
-quotesheet = "quotesheets/testquotes.csv" # Source CSV file
+quotesheet = "quotesheets/quotes.csv" # Source CSV file
 logfile = "logs/searchdump.txt"
 fieldnames = ["quote", "speaker", "date", "tags"] 
 

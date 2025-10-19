@@ -1,5 +1,6 @@
 # Ignore all CSV files (they will be created by the user)
 *.csv
 
-# Ignore log files
-logs/*.txt
+# except quotes.csv because apparently Git won't recognize it otherwise
+# so, therefore, that will become the default
+!quotesheets/quotes.csv
