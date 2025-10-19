@@ -1,0 +1,5 @@
+# Ignore all CSV files (they will be created by the user)
+*.csv
+
+# Ignore log files
+logs/*.txt
