@@ -16,6 +16,10 @@ Unfortunately, as of v.1.1 this is only supported on Windows. Linux support comi
    - Go to the root directory.
    - Run `python main.py`
    - Alternatively, you can open `start.bat`
+4. **OPTIONAL**: Create a new CSV file
+   - Open main.py in a text editor
+   - Go to the string variable `quotesheet` towards the top and set that to the path of your choice
+   - Do this at your own risk!
   
 ## Update log
 **1.1 (10/19/2025)**
