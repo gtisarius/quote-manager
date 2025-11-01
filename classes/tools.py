@@ -80,14 +80,20 @@ class Tools:
             print(f"- {arr[i]["quote"]} (said by {arr[i]["speaker"]} on {arr[i]["date"]})")
     
     def clearScreen():
-        if os.name == "nt":
+        """
+        Clear the screen depending on OS (pending).
+        """
+        if os.name == "nt": # Windows NT, so everything XP and onwards
            _ = os.system("cls")
-        else:
+        else: # Linux and MacOS
            _ = os.system("clear")
 
     def quoteParse(arr, logfile):
+        """
+        This function is used to parse each quote into alphanumeric words for both the search and delete features.
+        """
         parsedArr = []
-        for q in arr:
+        for q in arr: 
             goodChars = []
             for char in list(q["quote"].lower()):
                 if char.isalnum() == True or char == " ":
